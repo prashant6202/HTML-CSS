@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Job applaction form</title>
+  </head>
+  <body bgcolor="#80ffcc">
+    <h1 align="center">Job applaction Form</h1>
+    <hr color="black" />
+    <form action="" method="post">
+      <table align="center" cellspacing="40">
+        <!--Name contant starts here-->
+        <tr>
+          <th align="left">Full Name</th>
+          <td>
+            <label for="fullname"></label>
+            <input
+              id="fullname"
+              type="text"
+              size="60"
+              maxlength="50"
+              placeholder="Enter your name"
+              required
+            />
+          </td>
+        </tr>
+        <!--Name contant ends here-->
+        <!--Job contant starts here-->
+        <tr>
+          <th align="left">Job Title</th>
+          <td>
+            <label for="jobtitle"></label>
+            <input
+              id="tobtitle"
+              type="text"
+              size="60"
+              maxlength="50"
+              placeholder="Enter your job title"
+            />
+          </td>
+        </tr>
+        <!--Job contant ends here-->
+        <!--Company contant starts here-->
+        <tr>
+          <th align="left">Current Company</th>
+          <td>
+            <label for="cname"></label>
+            <input
+              id="cname"
+              type="text"
+              size="60"
+              maxlength="50"
+              placeholder="Enter your company name"
+            />
+          </td>
+        </tr>
+        <!--Company contant ends here-->
+        <!--Countrycode-Contact contant starts here-->
+        <tr>
+          <th align="left">Contact Number</th>
+          <td>
+            <select name="countrycode">
+              <option value="india">+91</option>
+              <option value="Nepal">+977</option>
+              <option value="New Zealand">+64</option>
+              <option value="Brazil">+55</option>
+              <option value="canada">+1</option>
+              <option value="China">+86</option>
+              <option value="pakistan">+92</option>
+            </select>
+            <label for="number"></label>
+            <input
+              id="number"
+              type="text"
+              size="51"
+              maxlength="15"
+              placeholder="Enter your Contact number"
+              required
+            />
+          </td>
+        </tr>
+        <!--Countrycode-Contact contant ends here-->
+        <!--Email contant starts here-->
+        <tr>
+          <th align="left">Email</th>
+          <td>
+            <label for="Email"></label>
+            <input
+              id="Email"
+              type="email"
+              size="60"
+              placeholder="Enter your email"
+              required
+            />
+          </td>
+        </tr>
+        <!--Email contant ends here-->
+        <!--Radio contant starts here-->
+        <tr>
+          <th align="left">Word Status</th>
+          <td>
+            <input type="radio" name="Work Status" value="Status" />
+            <label for="radio">Full Time</label>
+            <input type="radio" name="Work Status" value="Status" />
+            <label for="radio">Part Time</label>
+            <input type="radio" name="Work Status" value="Status" />
+            <label for="radio">Per Dim</label>
+            <input type="radio" name="Work Status" value="Status" />
+            <label for="radio">Other</label>
+          </td>
+        </tr>
+        <!--Radio contant ends here-->
+        <!--Salary contant starts here-->
+        <tr>
+          <th align="left">Salary</th>
+          <td>
+            <label for="Salary"></label>
+            <input
+              type="text"
+              name="Salary"
+              id="Salary"
+              size="39"
+              placeholder="Salary"
+            />
+            <select name="money" id="Salary">
+              <option value="Rupees">Rupees</option>
+            </select>
+            <select name="yearly" id="Salary">
+              <option value="yearly">yearly</option>
+            </select>
+          </td>
+        </tr>
+        <!--Salary contant ends here-->
+        <!--Experience contant starts here-->
+        <tr>
+          <th align="left">Experience</th>
+          <td>
+            <label for="Experience"></label>
+            <input
+              id="Experience"
+              type="text"
+              size="60"
+              maxlength="50"
+              placeholder="Enter your experience in months"
+            />
+          </td>
+        </tr>
+        <!--Experience contant ends here-->
+        <!--Location contant starts here-->
+        <tr>
+          <th align="left">Current Location</th>
+          <td>
+            <label for="Location"></label>
+            <input
+              id="Location"
+              type="text"
+              size="60"
+              maxlength="50"
+              placeholder="Enter your current location"
+            />
+          </td>
+        </tr>
+        <!--Location contant ends here-->
+        <!--Textarea contant starts here-->
+        <tr>
+          <th align="left">Permanent Address</th>
+          <td>
+            <textarea
+              name="Address"
+              cols="60"
+              rows="5"
+              placeholder="Enter Permanent address"
+            ></textarea>
+          </td>
+        </tr>
+        <!--Textarea contant ends here-->
+        <!--file contant starts here-->
+        <tr>
+          <th align="left">Upload Resume</th>
+          <td>
+            <label for="file"></label>
+            <input type="file" name="file" value="Resume" id="file" />
+          </td>
+        </tr>
+        <!--file contant ends here-->
+        <!--Button contant starts here-->
+        <tr>
+          <th>
+            <label for="sumbit"></label>
+            <input type="button" name="button" value="sumbit" id="sumbit" />
+          </th>
+          <td align="center">
+            <label for="reset"></label>
+            <input type="reset" name="resetbutton" value="Reset" id="reset" />
+          </td>
+        </tr>
+        <!--Button contant starts here-->
+      </table>
+    </form>
+    <p align="right">
+      <b
+        >Developed By:-><a
+          href="https://www.linkedin.com/in/prashant-yaduvanshi-069a78270/"
+          target="_blank"
+          >Prashant yaduvanshi</a
+        ></b
+      >
+    </p>
+  </body>
+</html>
