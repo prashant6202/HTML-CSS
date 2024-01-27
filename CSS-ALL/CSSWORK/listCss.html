@@ -1,0 +1,54 @@
+<html>
+  <head>
+    <title>Building a navigation bar with HTML list and CSS</title>
+    <style>
+      span {
+        color: crimson;
+      }
+      div {
+        text-align: center;
+      }
+      body {
+        font-size: 20px;
+        font-family: Arial, sans-serif;
+      }
+      ul li a {
+        display: block;
+        text-decoration: none;
+        padding: 10px 25px;
+      }
+      ul li {
+        display: inline-block;
+      }
+
+      ul {
+        padding: 0;
+        list-style: none;
+        background-color: #f2f2f2;
+      }
+
+      ul li a:hover {
+        color: #fff;
+        background: #939393;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <ul>
+        <li>
+          <a href="#"><span>Home</span></a>
+        </li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+    <p>
+      <strong>Note:</strong> place mouse pointer over the menu link to see the
+      hover effect.
+    </p>
+  </body>
+</html>

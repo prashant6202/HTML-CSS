@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        margin: 0;
+        background: linear-gradienst(to right, #ff7e5f, #feb47b);
+        color: #fff;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      #birthday-box {
+        text-align: center;
+        padding: 40px;
+        border-radius: 20px;
+        background: linear-gradient(to right, #ff4e50, #f9d423);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+        animation: bounceAndRotate 2s ease-in-out infinite alternate;
+      }
+
+      @keyframes bounceAndRotate {
+        0% {
+          transform: translateY(0) rotate(0deg);
+        }
+        100% {
+          transform: translateY(-10px) rotate(5deg);
+        }
+      }
+
+      h1 {
+        font-size: 2.5em;
+        margin-bottom: 10px;
+      }
+
+      #cake {
+        width: 200px;
+        animation: spin 4s linear infinite;
+      }
+
+      @keyframes spin {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+
+      p {
+        font-size: 1.2em;
+        margin-top: 10px;
+      }
+      img {
+        width: 100px;
+        height: 100%;
+      }
+      #about {
+        text-align: right;
+        color: #970508;
+      }
+      p span {
+        color: #1d6b07;
+      }
+    </style>
+    <title>Beautiful Birthday Celebration!</title>
+  </head>
+  <body>
+    <div id="birthday-box">
+      <h1>🎉 Happy Birthday! 🎉</h1>
+      <h2>Anupam thakur</h2>
+      <p>
+        "Happy Birthday to the most amazing and fabulous friend a girl
+        <b>Motki🎉🎂</b> could ask for! 🎉🎂 Your presence adds so much joy and
+        laughter to my life, and I'm grateful to have you by my side. May your
+        day be filled with love, surprises, and all the wonderful moments you
+        deserve. Here's to another year of incredible adventures and cherished
+        memories. Cheers to you, my dear Motki! 🥳🎈<b>
+          <span>#ChildhoodFriendsForever#</span></b
+        >
+      </p>
+      <p>Wishing you a day filled with joy, love, and lots of surprises!</p>
+      <img
+        src="https://avatars.githubusercontent.com/u/157669511?v=4"
+        alt="Birthday Cake"
+        id="cake"
+      />
+      <img
+        src="https://avatars.githubusercontent.com/u/157669511?v=4"
+        alt="Birthday Cake"
+        id="cake"
+      />
+      <img
+        src="https://avatars.githubusercontent.com/u/157669511?v=4"
+        alt="Birthday Cake"
+        id="cake"
+      />
+      <img
+        src="https://avatars.githubusercontent.com/u/157669511?v=4"
+        alt="Birthday Cake"
+        id="cake"
+      />
+      <img
+        src="https://avatars.githubusercontent.com/u/157669511?v=4"
+        alt="Birthday Cake"
+        id="cake"
+      />
+
+      <p>🎂 🎈 🎁</p>
+      <p id="about">
+        Developer:<a href="https://github.com/prashant6202">Prashant Yadav</a>
+      </p>
+
+      <script>
+        // Add some interactive element with JavaScript if needed
+        document
+          .getElementById("birthday-box")
+          .addEventListener("click", function () {
+            alert("Happy Birthday Motki🎉🎂");
+          });
+      </script>
+    </div>
+  </body>
+</html>
